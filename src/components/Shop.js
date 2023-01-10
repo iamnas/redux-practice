@@ -20,7 +20,7 @@ function Shop() {
         <button className="btn btn-primary mx-2"  onClick={()=>{ dispatch(actionCreators.depositMoney(100)) }} >+</button> */}
         <button className="btn btn-primary mx-2" onClick={()=>{ withdrawMoney(100) }}>-</button>
         Update Balance ({amount})
-        <button className="btn btn-primary mx-2"  onClick={()=>{depositMoney(100)git init }} >+</button>
+        <button className="btn btn-primary mx-2"  onClick={()=>{depositMoney(100) }} >+</button>
     </div>
   )
 }
